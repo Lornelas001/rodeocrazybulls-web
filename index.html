@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Rodeo Crazy Bulls – Toro Mecánico CDMX</title>
+<meta name="description" content="Renta de toro mecánico profesional en CDMX y Zona Metropolitana. Paquetes desde $2,790, operador capacitado, contrato formal y apartado con $300.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@400;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
@@ -301,6 +302,79 @@
     padding: 20px;
   }
   .gallery-cta { text-align: center; margin-top: 36px; }
+
+  .gallery-item.no-photo {
+    background:
+      linear-gradient(135deg, rgba(212,160,23,0.18), rgba(204,34,0,0.10)),
+      radial-gradient(circle at 50% 35%, rgba(240,192,64,0.16), transparent 45%),
+      var(--card2);
+  }
+  .gallery-label {
+    position: absolute;
+    left: 14px;
+    bottom: 14px;
+    right: 14px;
+    background: rgba(0,0,0,0.72);
+    border: 1px solid rgba(212,160,23,0.35);
+    border-radius: 10px;
+    padding: 12px 14px;
+    text-align: left;
+  }
+  .gallery-label strong {
+    display: block;
+    font-family: 'Oswald', sans-serif;
+    color: var(--white);
+    letter-spacing: 1px;
+    font-size: 14px;
+    margin-bottom: 4px;
+  }
+  .gallery-label span {
+    color: var(--muted);
+    font-size: 12px;
+    line-height: 1.4;
+  }
+
+  /* ── TESTIMONIALS ── */
+  #testimonios { background: var(--black); }
+  .testimonials-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 18px;
+    margin-top: 48px;
+  }
+  .testimonial-card {
+    background: var(--card2);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 28px 24px;
+    position: relative;
+  }
+  .testimonial-stars {
+    color: var(--gold-light);
+    letter-spacing: 2px;
+    margin-bottom: 14px;
+    font-size: 15px;
+  }
+  .testimonial-card p {
+    color: var(--text);
+    font-size: 14px;
+    line-height: 1.7;
+    margin-bottom: 18px;
+  }
+  .testimonial-card strong {
+    display: block;
+    font-family: 'Oswald', sans-serif;
+    color: var(--gold-light);
+    letter-spacing: 1px;
+    font-size: 13px;
+  }
+  .testimonial-card span {
+    display: block;
+    color: var(--muted);
+    font-size: 12px;
+    margin-top: 4px;
+  }
+
 
   /* ── PRICING ── */
   #precios { background: var(--dark); }
@@ -629,7 +703,7 @@
 <body>
 
 <!-- FLOATING BUTTON -->
-<a href="https://wa.me/521XXXXXXXXXX?text=Hola%2C%20quiero%20agendar%20con%20un%20asesor" target="_blank" class="floating-btn">
+<a href="https://wa.me/525561393639?text=Hola%2C%20quiero%20agendar%20con%20un%20asesor" target="_blank" class="floating-btn">
   <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
   AGENDA CON UN ASESOR
 </a>
@@ -672,12 +746,12 @@
 
   <div class="hero-badges">
     <div class="badge badge-fire">🔥 FECHAS DE FIN DE SEMANA CON ALTA DEMANDA</div>
-    <div class="badge badge-price">SERVICIO DESDE&nbsp;<strong>$2,890</strong></div>
+    <div class="badge badge-price">SERVICIO DESDE&nbsp;<strong>$2,790</strong></div>
   </div>
 
   <div class="hero-ctas">
-    <a href="#precios" class="btn-primary">RESERVAR AHORA</a>
-    <a href="https://wa.me/521XXXXXXXXXX?text=Hola%2C%20quiero%20cotizar%20el%20servicio" target="_blank" class="btn-outline">COTIZAR POR WHATSAPP</a>
+    <a href="#precios" class="btn-primary">VER PAQUETES</a>
+    <a href="https://wa.me/525561393639?text=Hola%2C%20quiero%20cotizar%20el%20servicio" target="_blank" class="btn-outline">COTIZAR POR WHATSAPP</a>
   </div>
 </section>
 
@@ -705,7 +779,7 @@
       <div class="service-card">
         <div class="service-icon">📢</div>
         <h3>BOCINA OPCIONAL</h3>
-        <p>Música para tu evento</p>
+        <p>Favor de solicitarla si se requiere</p>
       </div>
       <div class="service-card">
         <div class="service-icon">⚡</div>
@@ -734,27 +808,36 @@
 <!-- ══════════════ GALERIA ══════════════ -->
 <section id="galeria">
   <div class="container">
-    <h2 class="section-title">EVENTOS <span>REALES</span></h2>
+    <h2 class="section-title">EXPERIENCIAS <span>CRAZY BULLS</span></h2>
     <p class="section-sub">La diversión que tus invitados merecen</p>
     <div class="gallery-grid">
-      <div class="gallery-item">
-        <div class="gallery-placeholder">
-          📸 Agrega aquí tu foto 1<br><small>Reemplaza con &lt;img src="foto1.jpg"&gt;</small>
+      <div class="gallery-item no-photo">
+        <!-- Cuando tengas foto real, reemplaza este bloque por: <img src="images/evento-1.jpg" alt="Toro mecánico en evento Rodeo Crazy Bulls"> -->
+        <div class="gallery-placeholder">🐂</div>
+        <div class="gallery-label">
+          <strong>EVENTOS FAMILIARES</strong>
+          <span>Diversión segura para niños, jóvenes y adultos con operador capacitado.</span>
         </div>
       </div>
-      <div class="gallery-item">
-        <div class="gallery-placeholder">
-          📸 Agrega aquí tu foto 2<br><small>Reemplaza con &lt;img src="foto2.jpg"&gt;</small>
+      <div class="gallery-item no-photo">
+        <!-- Cuando tengas foto real, reemplaza este bloque por: <img src="images/evento-2.jpg" alt="Toro mecánico en fiesta privada en CDMX"> -->
+        <div class="gallery-placeholder">🎉</div>
+        <div class="gallery-label">
+          <strong>FIESTAS Y CUMPLEAÑOS</strong>
+          <span>Una atracción diferente para que tus invitados participen y se diviertan.</span>
         </div>
       </div>
-      <div class="gallery-item">
-        <div class="gallery-placeholder">
-          📸 Agrega aquí tu foto 3<br><small>Reemplaza con &lt;img src="foto3.jpg"&gt;</small>
+      <div class="gallery-item no-photo">
+        <!-- Cuando tengas foto real, reemplaza este bloque por: <img src="images/evento-3.jpg" alt="Toro mecánico para evento empresarial"> -->
+        <div class="gallery-placeholder">🏆</div>
+        <div class="gallery-label">
+          <strong>EVENTOS EMPRESARIALES</strong>
+          <span>Ideal para activaciones, posadas, integraciones y eventos corporativos.</span>
         </div>
       </div>
     </div>
     <div class="gallery-cta">
-      <a href="https://facebook.com/rodeocrazybulls" target="_blank" class="btn-outline">VER MÁS EN FACEBOOK</a>
+      <a href="https://tiktok.com/@rodeocrazybulls" target="_blank" class="btn-outline">VER MÁS EN TIKTOK</a>
     </div>
   </div>
 </section>
@@ -769,26 +852,26 @@
       <div class="plan">
         <div class="plan-hours">2</div>
         <div class="plan-hours-label">HORAS</div>
-        <div class="plan-price">$2,890</div>
+        <div class="plan-price">$2,790</div>
         <ul class="plan-features">
           <li>Flete incluido</li>
           <li>Operador</li>
           <li>Contrato</li>
         </ul>
-        <a href="https://wa.me/521XXXXXXXXXX?text=Hola%2C%20quiero%20reservar%20el%20paquete%202%20horas" target="_blank" class="btn-outline">RESERVAR AHORA</a>
+        <a href="https://wa.me/525561393639?text=Hola%2C%20quiero%20reservar%20el%20paquete%202%20horas" target="_blank" class="btn-outline">RESERVAR AHORA</a>
       </div>
 
       <div class="plan popular">
         <div class="plan-badge">POPULAR</div>
         <div class="plan-hours">3</div>
         <div class="plan-hours-label">HORAS</div>
-        <div class="plan-price">$3,390</div>
+        <div class="plan-price">$3,290</div>
         <ul class="plan-features">
           <li>Flete incluido</li>
           <li>Operador</li>
           <li>Contrato</li>
         </ul>
-        <a href="https://wa.me/521XXXXXXXXXX?text=Hola%2C%20quiero%20reservar%20el%20paquete%203%20horas" target="_blank" class="btn-primary">RESERVAR AHORA</a>
+        <a href="https://wa.me/525561393639?text=Hola%2C%20quiero%20reservar%20el%20paquete%203%20horas" target="_blank" class="btn-primary">RESERVAR AHORA</a>
       </div>
 
       <div class="plan">
@@ -800,19 +883,19 @@
           <li>Operador</li>
           <li>Contrato</li>
         </ul>
-        <a href="https://wa.me/521XXXXXXXXXX?text=Hola%2C%20quiero%20reservar%20el%20paquete%204%20horas" target="_blank" class="btn-outline">RESERVAR AHORA</a>
+        <a href="https://wa.me/525561393639?text=Hola%2C%20quiero%20reservar%20el%20paquete%204%20horas" target="_blank" class="btn-outline">RESERVAR AHORA</a>
       </div>
 
       <div class="plan">
         <div class="plan-hours">5</div>
         <div class="plan-hours-label">HORAS</div>
-        <div class="plan-price">$4,290</div>
+        <div class="plan-price">$4,090</div>
         <ul class="plan-features">
           <li>Flete incluido</li>
           <li>Operador</li>
           <li>Contrato</li>
         </ul>
-        <a href="https://wa.me/521XXXXXXXXXX?text=Hola%2C%20quiero%20reservar%20el%20paquete%205%20horas" target="_blank" class="btn-outline">RESERVAR AHORA</a>
+        <a href="https://wa.me/525561393639?text=Hola%2C%20quiero%20reservar%20el%20paquete%205%20horas" target="_blank" class="btn-outline">RESERVAR AHORA</a>
       </div>
 
     </div>
@@ -864,15 +947,15 @@
     <div class="reserva-form">
       <input type="text" placeholder="Tu nombre">
       <input type="tel" placeholder="WhatsApp / Teléfono">
-      <input type="date" placeholder="Fecha del evento">
+      <input type="datetime-local" aria-label="Fecha y hora aproximada del evento">
       <select>
         <option value="" disabled selected>Paquete</option>
-        <option value="2h">2 horas – $2,890</option>
-        <option value="3h">3 horas – $3,390</option>
+        <option value="2h">2 horas – $2,790</option>
+        <option value="3h">3 horas – $3,290</option>
         <option value="4h">4 horas – $3,690</option>
-        <option value="5h">5 horas – $4,290</option>
+        <option value="5h">5 horas – $4,090</option>
       </select>
-      <input type="text" placeholder="Colonia / Delegación">
+      <input type="text" placeholder="Código postal">
       <a href="#" onclick="enviarReserva()" class="btn-primary" style="display:flex;align-items:center;justify-content:center;">VER DISPONIBILIDAD →</a>
     </div>
   </div>
@@ -903,7 +986,7 @@
       <div class="req-warning-icon">⚠️</div>
       <div>
         <h4>CONDICIONES DE MANIOBRA</h4>
-        <p>Si el acceso incluye escaleras, accesos difíciles, pasillos estrechos o distancia mayor a 100 metros, se aplica un costo adicional por maniobra antes de la instalación. Consulta con nosotros antes de reservar.</p>
+        <p>Si el acceso incluye escaleras, accesos difíciles, pasillos estrechos o distancia mayor a 100 metros, se aplica un costo adicional por maniobra antes de la instalación. En temporada de lluvia se requiere un espacio techado o cubierto para proteger el equipo. Consulta con nosotros antes de reservar.</p>
       </div>
     </div>
 
@@ -912,7 +995,36 @@
       <div class="cam360-icon">📸</div>
       <h3>CÁMARA <span>360°</span></h3>
       <p>Disponible para complementar tu evento. Captura los mejores momentos desde todos los ángulos.</p>
-      <a href="https://wa.me/521XXXXXXXXXX?text=Hola%2C%20me%20interesa%20la%20cámara%20360°" target="_blank" class="btn-primary">PREGUNTAR DISPONIBILIDAD</a>
+      <a href="https://wa.me/525561393639?text=Hola%2C%20me%20interesa%20la%20cámara%20360°" target="_blank" class="btn-primary">PREGUNTAR DISPONIBILIDAD</a>
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════ TESTIMONIOS ══════════════ -->
+<section id="testimonios">
+  <div class="container">
+    <h2 class="section-title">CLIENTES <span>CONTENTOS</span></h2>
+    <p class="section-sub">La experiencia de quienes ya hicieron su evento con Rodeo Crazy Bulls.</p>
+    <div class="testimonials-grid">
+      <div class="testimonial-card">
+        <div class="testimonial-stars">★★★★★</div>
+        <p>Excelente servicio, llegaron puntuales, el toro fue la atracción principal y todos se divirtieron muchísimo.</p>
+        <strong>EVENTO FAMILIAR</strong>
+        <span>Ciudad de México</span>
+      </div>
+      <div class="testimonial-card">
+        <div class="testimonial-stars">★★★★★</div>
+        <p>Muy buena atención desde la cotización. El operador estuvo al pendiente y el proceso de reserva fue claro.</p>
+        <strong>FIESTA PRIVADA</strong>
+        <span>Zona Metropolitana</span>
+      </div>
+      <div class="testimonial-card">
+        <div class="testimonial-stars">★★★★★</div>
+        <p>El toro mecánico hizo que el evento se sintiera diferente. Muy recomendable para romper el hielo con los invitados.</p>
+        <strong>EVENTO EMPRESARIAL</strong>
+        <span>CDMX</span>
+      </div>
     </div>
   </div>
 </section>
@@ -942,7 +1054,7 @@
         </button>
         <div class="faq-a">
           <div class="faq-a-inner">
-            En caso de mal tiempo o lluvia intensa, nuestro personal tomará las medidas necesarias para proteger el equipo. Recomendamos tener un espacio techado como alternativa. Consulta los detalles en el contrato de servicio.
+            En caso de lluvia, el cliente debe proporcionar un espacio techado o cubierto para proteger el equipo. Si no existen condiciones seguras para instalar o continuar el servicio, se revisará la situación conforme al contrato de servicio.
           </div>
         </div>
       </div>
@@ -1004,7 +1116,7 @@
   <p>Toro mecánico profesional para fiestas y eventos</p>
   <p>Servicio disponible únicamente en Ciudad de México y Zona Metropolitana</p>
   <div class="footer-links">
-    <a href="https://wa.me/521XXXXXXXXXX" target="_blank">WhatsApp</a>
+    <a href="https://wa.me/525561393639" target="_blank">WhatsApp</a>
     <a href="https://facebook.com/rodeocrazybulls" target="_blank">Facebook</a>
     <a href="https://instagram.com/rodeocrazybulls" target="_blank">Instagram</a>
     <a href="https://tiktok.com/@rodeocrazybulls" target="_blank">TikTok</a>
@@ -1028,11 +1140,11 @@
     const tel = inputs[1].value || '';
     const fecha = inputs[2].value || '';
     const paquete = inputs[3].value || '';
-    const colonia = inputs[4].value || '';
+    const codigoPostal = inputs[4].value || '';
     const msg = encodeURIComponent(
-      `Hola, quiero verificar disponibilidad:\n👤 Nombre: ${nombre}\n📱 Tel: ${tel}\n📅 Fecha: ${fecha}\n📦 Paquete: ${paquete}\n📍 Colonia: ${colonia}`
+      `Hola, quiero verificar disponibilidad:\n👤 Nombre: ${nombre}\n📱 Tel: ${tel}\n📅 Fecha: ${fecha}\n📦 Paquete: ${paquete}\n📍 Código postal: ${codigoPostal}`
     );
-    window.open(`https://wa.me/521XXXXXXXXXX?text=${msg}`, '_blank');
+    window.open(`https://wa.me/525561393639?text=${msg}`, '_blank');
   }
 
   // Scroll reveal
@@ -1045,7 +1157,7 @@
     });
   }, { threshold: 0.1 });
 
-  document.querySelectorAll('.service-card, .plan, .step, .req-card, .gallery-item').forEach(el => {
+  document.querySelectorAll('.service-card, .plan, .step, .req-card, .gallery-item, .testimonial-card').forEach(el => {
     el.style.opacity = '0';
     el.style.transform = 'translateY(20px)';
     el.style.transition = 'opacity 0.5s ease, transform 0.5s ease, border-color 0.25s, box-shadow 0.25s';
