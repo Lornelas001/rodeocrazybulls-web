@@ -144,21 +144,22 @@ footer{background:#070707;border-top:1px solid var(--border);text-align:center;p
 <div class="reserva">
   <div class="container">
     <h2>Verifica <span>disponibilidad</span></h2>
-    <p>Indícanos fecha, hora y lugar del evento. Tu fecha se confirma con apartado de <strong>$300 MXN</strong>.</p>
-    <div class="form">
-      <input id="nombre" type="text" placeholder="Tu nombre">
-      <input id="telefono" type="tel" placeholder="WhatsApp / Teléfono">
-      <input id="fecha" type="date">
-      <input id="hora" type="time" placeholder="Hora del evento">
-      <select id="paquete">
-        <option value="">Paquete</option>
-        <option>2 horas – $2,790</option>
-        <option>3 horas – $3,290</option>
-        <option>4 horas – $3,690</option>
-        <option>5 horas – $4,090</option>
-      </select>
-      <input id="lugar" type="text" placeholder="Lugar del evento / CP / colonia">
-      <button onclick="enviarReserva()" class="btn-primary" style="border:0;cursor:pointer">Ver disponibilidad</button>
+    <p>Agenda una revisión rápida de disponibilidad. Indícanos fecha, hora y lugar aproximado del evento.</p>
+
+    <div style="max-width:760px;margin:30px auto 0;background:rgba(26,26,26,.9);border:1px solid var(--border);border-radius:22px;padding:34px 26px;box-shadow:0 18px 50px rgba(0,0,0,.35);">
+      <div style="font-size:42px;margin-bottom:12px;">📅</div>
+      <h3 style="font-size:24px;text-transform:uppercase;margin-bottom:10px;color:#fff;">Revisar disponibilidad</h3>
+      <p style="color:var(--muted);line-height:1.6;margin-bottom:24px;">
+        Tu fecha queda sujeta a validación logística y se confirma con apartado de <strong style="color:var(--gold-light);">$300 MXN</strong>.
+      </p>
+
+      <a href="https://tidycal.com/rodeocrazybulls/revisar-disponibilidad" target="_blank" class="btn-primary" style="font-size:18px;padding:18px 34px;display:inline-block;">
+        Revisar disponibilidad →
+      </a>
+
+      <p style="margin-top:18px;color:var(--muted);font-size:14px;">
+        También puedes escribirnos por WhatsApp si tienes dudas antes de reservar.
+      </p>
     </div>
   </div>
 </div>
@@ -212,17 +213,6 @@ footer{background:#070707;border-top:1px solid var(--border);text-align:center;p
   <p style="margin-top:24px;color:#666">© 2026 Rodeo Crazy Bulls. Todos los derechos reservados.</p>
 </footer>
 
-<script>
-function enviarReserva(){
-  const nombre=document.getElementById('nombre').value||'';
-  const tel=document.getElementById('telefono').value||'';
-  const fecha=document.getElementById('fecha').value||'';
-  const hora=document.getElementById('hora').value||'';
-  const paquete=document.getElementById('paquete').value||'';
-  const lugar=document.getElementById('lugar').value||'';
-  const msg=encodeURIComponent(`Hola, quiero verificar disponibilidad:\nNombre: ${nombre}\nTel: ${tel}\nFecha del evento: ${fecha}\nHora del evento: ${hora}\nPaquete: ${paquete}\nLugar del evento: ${lugar}`);
-  window.open(`https://wa.me/525561393639?text=${msg}`,'_blank');
-}
-</script>
+
 </body>
 </html>
